@@ -50,10 +50,47 @@ export function Projects() {
           prevArrow={<CustomPrevArrow />}
           className="px-2 md:px-8 z-0 relative"
         >
-          {/* Página 1 */}
+          
           <div>
             <div className="grid md:grid-cols-2 gap-8 mb-16">
-              {/* Proyecto 1: TuLook */}
+              
+              <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
+                <img
+                  src="/Portfolio.png"
+                  alt="Portfolio"
+                  className="w-full h-48 object-cover rounded-lg mb-4"
+                />
+                <h3 className="text-3xl font-bold text-white tracking-wide mb-2">
+                  Personal Portfolio
+                </h3>
+                <p className="text-md text-white text-justify">
+                  This is a personal portfolio website developed to showcase my
+                  information, projects, and technical skills. It includes a
+                  clean user interface and responsive design to provide a smooth
+                  browsing experience for visitors.
+                </p>
+                <p className="text-sm mt-2 text-gray-400">
+                  Technologies: React, JavaScript, Tailwind CSS, Vercel
+                </p>
+                <div className="mt-4 flex gap-4">
+                  <a
+                    href="https://github.com/tuusuario/portfolio"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-slate-100 hover:bg-slate-900 !text-black visited:!text-black hover:!text-white px-4 py-2 rounded shadow-md transition-all"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href="https://portfolio.example.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-red-800 hover:bg-red-400  !text-white visited:!text-white hover:!text-black px-4 py-2 rounded shadow-md transition-all"
+                  >
+                    View Project
+                  </a>
+                </div>
+              </div>
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
                 <img
                   src="/TuLook.png"
@@ -93,7 +130,7 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Proyecto 2: API Web HotelBeachSA */}
+              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[-10px_10px_10px] flex flex-col">
                 <img
                   src="/API.png"
@@ -132,7 +169,7 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Proyecto 3: HotelBeachSA */}
+              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
                 <img
                   src="HotelBeachSA.png"
@@ -171,7 +208,15 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Proyecto 4: TasKing */}
+              
+            </div>
+          </div>
+          <div>
+            <div
+              className="grid md:grid-cols-2 gap-8 
+                mb-16 sm:mb-8 sm:pb-4"
+            >
+              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[-10px_10px_10px] flex flex-col">
                 <img
                   src="TasKing.png"
@@ -209,51 +254,7 @@ export function Projects() {
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-          <div>
-            <div
-              className="grid md:grid-cols-2 gap-8 
-                mb-16 sm:mb-8 sm:pb-4"
-            >
-              {/* Proyecto 5 */}
-              <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
-                <img
-                  src="/Portfolio.png"
-                  alt="Portfolio"
-                  className="w-full h-48 object-cover rounded-lg mb-4"
-                />
-                <h3 className="text-3xl font-bold text-white tracking-wide mb-2">
-                  Personal Portfolio
-                </h3>
-                <p className="text-md text-white text-justify">
-                  This is a personal portfolio website developed to showcase my
-                  information, projects, and technical skills. It includes a
-                  clean user interface and responsive design to provide a smooth
-                  browsing experience for visitors.
-                </p>
-                <p className="text-sm mt-2 text-gray-400">
-                  Technologies: React, JavaScript, Tailwind CSS, Vercel
-                </p>
-                <div className="mt-4 flex gap-4">
-                  <a
-                    href="https://github.com/tuusuario/portfolio"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-slate-100 hover:bg-slate-900 !text-black visited:!text-black hover:!text-white px-4 py-2 rounded shadow-md transition-all"
-                  >
-                    GitHub
-                  </a>
-                  <a
-                    href="https://portfolio.example.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-red-800 hover:bg-red-400  !text-white visited:!text-white hover:!text-black px-4 py-2 rounded shadow-md transition-all"
-                  >
-                    View Project
-                  </a>
-                </div>
-              </div>
+              
             </div>
           </div>
         </Slider>

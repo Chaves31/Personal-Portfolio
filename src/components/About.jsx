@@ -7,7 +7,7 @@ export function About() {
       className="bg-cover bg-center text-white py-20 px-4 mt-30 mb-30"
     >
       <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10 p-8 rounded-2xl">
-        {/* Foto de perfil */}
+       
         <div className="flex-shrink-0">
           <img
             src="/Perfil.jpg"
@@ -16,7 +16,7 @@ export function About() {
           />
         </div>
 
-        {/* Texto de presentación */}
+        
         <div className="text-center md:text-left">
           <h2 className="text-5xl font-bold mb-4">Eddy Chaves Rojas</h2>
           <p className="text-lg text-gray-300 text-justify mb-6">
@@ -29,7 +29,6 @@ export function About() {
             languages for full-stack development.
           </p>
 
-          {/* Íconos sociales y CV */}
           <div className="flex flex-wrap justify-center md:justify-start gap-6 mt-6">
             <a
               href="https://github.com/Chaves31"
@@ -79,7 +78,7 @@ export function About() {
             >
               Download CV
             </a>
-            {/* Botón: Ver CV */}
+            
             <a
               href="/CV-Eddy-Chaves.pdf"
               target="_blank"
