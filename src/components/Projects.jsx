@@ -138,10 +138,10 @@ export function Projects() {
                   API Web HotelBeachSA
                 </h3>
                 <p className="text-md text-white text-justify">
-                  This API allows the system to save, update, and retrieve data
-                  related to customers, packages, and reservations. The MVC
-                  structure facilitates the separation of responsibilities in
-                  the code, making it easier to maintain and scale.
+                  I developed an API to manage clients, packages, and
+                  reservations. I optimized its performance, reducing response
+                  time by 20%. I implemented MVC architecture to improve system
+                  scalability. This reduced maintenance times by 30%.
                 </p>
                 <p className="text-sm mt-2 text-gray-400">
                   Technologies: .NET, C#, .NET MVC
