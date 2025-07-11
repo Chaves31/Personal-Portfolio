@@ -50,10 +50,8 @@ export function Projects() {
           prevArrow={<CustomPrevArrow />}
           className="px-2 md:px-8 z-0 relative"
         >
-          
           <div>
             <div className="grid md:grid-cols-2 gap-8 mb-16">
-              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
                 <img
                   src="/Portfolio.png"
@@ -74,7 +72,7 @@ export function Projects() {
                 </p>
                 <div className="mt-4 flex gap-4">
                   <a
-                    href="https://github.com/tuusuario/portfolio"
+                    href="https://github.com/Chaves31/Personal-Portfolio"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-slate-100 hover:bg-slate-900 !text-black visited:!text-black hover:!text-white px-4 py-2 rounded shadow-md transition-all"
@@ -82,7 +80,7 @@ export function Projects() {
                     GitHub
                   </a>
                   <a
-                    href="https://portfolio.example.com"
+                    href="https://eddychaves.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-red-800 hover:bg-red-400  !text-white visited:!text-white hover:!text-black px-4 py-2 rounded shadow-md transition-all"
@@ -130,7 +128,6 @@ export function Projects() {
                 </div>
               </div>
 
-              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[-10px_10px_10px] flex flex-col">
                 <img
                   src="/API.png"
@@ -169,7 +166,6 @@ export function Projects() {
                 </div>
               </div>
 
-              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[10px_10px_10px] flex flex-col">
                 <img
                   src="HotelBeachSA.png"
@@ -207,8 +203,6 @@ export function Projects() {
                   </a>
                 </div>
               </div>
-
-              
             </div>
           </div>
           <div>
@@ -216,7 +210,6 @@ export function Projects() {
               className="grid md:grid-cols-2 gap-8 
                 mb-16 sm:mb-8 sm:pb-4"
             >
-              
               <div className="bg-gray-950 p-6 rounded-xl shadow-black/50 shadow-[-10px_10px_10px] flex flex-col">
                 <img
                   src="TasKing.png"
@@ -254,7 +247,6 @@ export function Projects() {
                   </a>
                 </div>
               </div>
-              
             </div>
           </div>
         </Slider>

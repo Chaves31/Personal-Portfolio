@@ -12,15 +12,14 @@ export function Contact() {
   return (
     <section id="contact" className="bg-slate-900 mt-30 text-white pt-20 px-4">
       <div className="max-w-6xl mx-auto md:grid md:grid-cols-2 gap-10 items-center">
-        
         <div className="text-center md:text-left mb-10 md:mb-0">
           <h2 className="text-4xl font-bold mb-4">Eddy Chaves</h2>
           <p className="text-gray-300 text-lg">
-            I'm a passionate Full Stack Developer, always eager to learn and improve.
+            I'm a passionate Full Stack Developer, always eager to learn and
+            improve.
           </p>
         </div>
 
-       
         <div className="text-center md:text-left">
           <h3 className="text-3xl font-semibold mb-6">Contact</h3>
           <div className="space-y-4 text-gray-200">
@@ -38,7 +37,6 @@ export function Contact() {
             </p>
           </div>
 
-         
           <div className="flex justify-center md:justify-start gap-6 mt-6 text-gray-400">
             <a
               href="https://github.com/Chaves31"
